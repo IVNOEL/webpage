@@ -1,0 +1,51 @@
+body {
+    background-color: powderblue;
+}
+
+p {
+    color: red;
+}
+
+h1 {
+    color: aqua;
+    font-family: verdana;
+    font-size: 300%;
+}
+
+h2 {
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 160%;
+}
+
+h3 {
+    color: palevioletred;
+}
+
+img {
+    border: 7px dotted purple;
+    border-radius: 5%;
+}
+
+.menu {
+    overflow: hidden;
+    background-color: goldenrod;
+}
+
+.menu a {
+    float: left;
+    color: maroon;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    background: gold;
+    color: black;
+}
+
+.menu a.active {
+    background-color: blue;
+}
