@@ -6,10 +6,18 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 200px;
+    width: 25%;
     background-color: #f1f1f1;
+    height: 100%;
+    /* Full height */
+    position: fixed;
+    /* Make it stick, even on scroll */
+    overflow: auto;
+    /* Enable scrolling if the sidenav has too much content */
 }
 
+
+}
 li a {
     display: block;
     color: #000;
@@ -17,55 +25,44 @@ li a {
     text-decoration: none;
 }
 
-
 /* Change the link color on hover */
-
 li a:hover {
     background-color: #555;
     color: white;
 }
-
 nav {
     font-size: 14px;
     font-family: georgia;
 }
-
 div {
     width: 119px;
     border: solid 1px;
     padding: 10px 0;
 }
-
 p {
     color: red;
 }
-
 h1 {
     color: aqua;
     font-family: verdana;
     font-size: 300%;
 }
-
 h2 {
     color: black;
     font-family: 'Courier New', Courier, monospace;
     font-size: 160%;
 }
-
 h3 {
     color: palevioletred;
 }
-
 img {
     border: 7px dotted purple;
     border-radius: 5%;
 }
-
 .menu {
     overflow: hidden;
     background-color: goldenrod;
 }
-
 .menu a {
     float: left;
     color: maroon;
@@ -74,16 +71,13 @@ img {
     text-decoration: none;
     font-size: 17px;
 }
-
 .menu a:hover {
     background: gold;
     color: black;
 }
-
 .menu a.active {
     background-color: blue;
 }
-
 background: #fb0 background: -webkit-linear-gradient(#fb0, #950);
 background: -moz-linear-gradient(#fb0, #950);
 background: -ms-linear-gradient(#fb0, #950);
