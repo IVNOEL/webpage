@@ -2,6 +2,19 @@ body {
     background-color: powderblue;
 }
 
+nav {
+    font-size: 14px;
+    font-family: georgia;
+    text-align: center;
+}
+
+div {
+    width: 119px;
+    border: solid 1px;
+    float: left;
+    padding: 10px 0;
+}
+
 p {
     color: red;
 }
@@ -51,7 +64,7 @@ img {
 }
 
 background: #fb0 background: -webkit-linear-gradient(#fb0, #950);
-background : -moz-linear-gradient(#fb0, #950);
-background : -ms-linear-gradient(#fb0, #950);
-background : -o-linear-gradient(#fb0, #950);
-background : linear-gradient(#fb0, #950);
+background: -moz-linear-gradient(#fb0, #950);
+background: -ms-linear-gradient(#fb0, #950);
+background: -o-linear-gradient(#fb0, #950);
+background: linear-gradient(#fb0, #950);
